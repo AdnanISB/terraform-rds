@@ -1,0 +1,8 @@
+aws_region = "us-east-1" 
+vpc_id = "vpc-078d976b27a52a58b"
+subnet_ids = [ "subnet-07381c5462d93eae8","subnet-041379fad4a6c7c01" ]
+db_name = "appdb" 
+db_username = "admin"
+db_password = "StrongPassword123!"
+allowed_cidr = "10.0.0.0/16"
+environment = "dev"
