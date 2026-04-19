@@ -25,14 +25,12 @@ variable "db_name" {
 variable "db_username" { 
   description = "Master DB username" 
   type        = string 
-  default = "admin"
 } 
  
 variable "db_password" { 
   description = "Master DB password" 
   type        = string 
   sensitive   = true 
-  default = "StrongPassword123!"
 } 
  
 variable "allowed_cidr" { 
@@ -46,3 +44,8 @@ variable "environment" {
   type        = string 
   default     = "dev" 
 }
+
+variable "db_secret_name" { 
+  default = "dev/mysql/app"
+  type = string 
+} 
