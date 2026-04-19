@@ -38,3 +38,7 @@ variable "environment" {
   description = "Deployment environment" 
   type        = string 
 }
+
+variable "db_secret_name" { 
+  type = string 
+} 
